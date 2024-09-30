@@ -1,4 +1,4 @@
-nav >ul {
+nav > ul{
     display: flex;
 }
 nav ul li{
@@ -12,5 +12,14 @@ nav ul li a {
     color: rgb(0, 255, 42);
 }
 nav ul li :hover{
-    background-color: crimson;
+    background-color: rgb(4, 176, 255);
+}
+nav ul .ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 125, 19);
+    padding: 10px;
+}
+nav li:hover .ul{
+    display: block;
 }
